@@ -1,0 +1,25 @@
+/* Sidebar.css */
+.sidebar {
+  width: 250px;
+  transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+  width: 0;
+  overflow: hidden;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.content {
+  transition: margin-left 0.3s ease;
+  padding-left: 250px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding-left: 0;
+  }
+}

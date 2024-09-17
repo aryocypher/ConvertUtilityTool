@@ -7,3 +7,8 @@ body {
       background-color: #2b5497  !important;
       /* background-color: #769FB6; */
 }
+
+.container {
+    max-width:100%;
+    margin: 0px;
+}
