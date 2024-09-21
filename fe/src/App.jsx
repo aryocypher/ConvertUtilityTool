@@ -6,10 +6,20 @@ import {Outlet} from 'react-router-dom'
 
 function App() {
   return (
-        <div className='container bg-custom-body'>
-        <Header/>
-        <Sidebar/>
-        <Outlet/>
+        <div className='container'>
+          <div className='row header-container'>
+            <div className='col-sm-12'>
+              <Header/>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-md-2'>
+            <Sidebar/>
+            </div>
+            <div className='col-md-10 col-sm-12'>
+            <Outlet/>
+            </div>
+          </div>
         </div>
   )
 }

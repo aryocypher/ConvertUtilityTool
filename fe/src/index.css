@@ -11,4 +11,5 @@ body {
 .container {
     max-width:100%;
     margin: 0px;
+    max-height: fit-content;
 }
